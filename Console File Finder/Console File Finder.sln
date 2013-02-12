@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console File Finder", "Console File Finder\Console File Finder.csproj", "{CD4DA170-6251-44FF-A863-F2B84D6FF4BE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{56E478A4-D64E-4BAD-81CE-63891C178529} = {56E478A4-D64E-4BAD-81CE-63891C178529}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "File Finder Library", "File Finder Library\File Finder Library.csproj", "{9F55A1A8-1AE0-4337-861B-C69521D4660B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{674AB14E-2F02-43A9-91BB-833D2E7716D3} = {674AB14E-2F02-43A9-91BB-833D2E7716D3}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressBarForm", "..\ProgressBarForm\ProgressBarForm.csproj", "{674AB14E-2F02-43A9-91BB-833D2E7716D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Progress Bar Interface", "..\File Finder Form\Progress Bar Interface\Progress Bar Interface.csproj", "{56E478A4-D64E-4BAD-81CE-63891C178529}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://skfsstfs01:8080/tfs/waplatform
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Console\u0020File\u0020Finder\\Console\u0020File\u0020Finder.csproj
+		SccProjectName1 = Console\u0020File\u0020Finder
+		SccLocalPath1 = Console\u0020File\u0020Finder
+		SccProjectUniqueName2 = File\u0020Finder\u0020Library\\File\u0020Finder\u0020Library.csproj
+		SccProjectName2 = File\u0020Finder\u0020Library
+		SccLocalPath2 = File\u0020Finder\u0020Library
+		SccProjectUniqueName3 = ..\\ProgressBarForm\\ProgressBarForm.csproj
+		SccProjectName3 = ../ProgressBarForm
+		SccLocalPath3 = ..\\ProgressBarForm
+		SccProjectUniqueName4 = ..\\File\u0020Finder\u0020Form\\Progress\u0020Bar\u0020Interface\\Progress\u0020Bar\u0020Interface.csproj
+		SccProjectName4 = ../File\u0020Finder\u0020Form/Progress\u0020Bar\u0020Interface
+		SccLocalPath4 = ..\\File\u0020Finder\u0020Form\\Progress\u0020Bar\u0020Interface
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD4DA170-6251-44FF-A863-F2B84D6FF4BE}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{CD4DA170-6251-44FF-A863-F2B84D6FF4BE}.Debug|Any CPU.Build.0 = Debug|x86
+		{CD4DA170-6251-44FF-A863-F2B84D6FF4BE}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{CD4DA170-6251-44FF-A863-F2B84D6FF4BE}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{CD4DA170-6251-44FF-A863-F2B84D6FF4BE}.Debug|x86.ActiveCfg = Debug|x86
+		{CD4DA170-6251-44FF-A863-F2B84D6FF4BE}.Debug|x86.Build.0 = Debug|x86
+		{CD4DA170-6251-44FF-A863-F2B84D6FF4BE}.Release|Any CPU.ActiveCfg = Release|x86
+		{CD4DA170-6251-44FF-A863-F2B84D6FF4BE}.Release|Any CPU.Build.0 = Release|x86
+		{CD4DA170-6251-44FF-A863-F2B84D6FF4BE}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{CD4DA170-6251-44FF-A863-F2B84D6FF4BE}.Release|Mixed Platforms.Build.0 = Release|x86
+		{CD4DA170-6251-44FF-A863-F2B84D6FF4BE}.Release|x86.ActiveCfg = Release|x86
+		{CD4DA170-6251-44FF-A863-F2B84D6FF4BE}.Release|x86.Build.0 = Release|x86
+		{9F55A1A8-1AE0-4337-861B-C69521D4660B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F55A1A8-1AE0-4337-861B-C69521D4660B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F55A1A8-1AE0-4337-861B-C69521D4660B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{9F55A1A8-1AE0-4337-861B-C69521D4660B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{9F55A1A8-1AE0-4337-861B-C69521D4660B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9F55A1A8-1AE0-4337-861B-C69521D4660B}.Debug|x86.Build.0 = Debug|Any CPU
+		{9F55A1A8-1AE0-4337-861B-C69521D4660B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F55A1A8-1AE0-4337-861B-C69521D4660B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F55A1A8-1AE0-4337-861B-C69521D4660B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{9F55A1A8-1AE0-4337-861B-C69521D4660B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{9F55A1A8-1AE0-4337-861B-C69521D4660B}.Release|x86.ActiveCfg = Release|Any CPU
+		{9F55A1A8-1AE0-4337-861B-C69521D4660B}.Release|x86.Build.0 = Release|Any CPU
+		{674AB14E-2F02-43A9-91BB-833D2E7716D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{674AB14E-2F02-43A9-91BB-833D2E7716D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{674AB14E-2F02-43A9-91BB-833D2E7716D3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{674AB14E-2F02-43A9-91BB-833D2E7716D3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{674AB14E-2F02-43A9-91BB-833D2E7716D3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{674AB14E-2F02-43A9-91BB-833D2E7716D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{674AB14E-2F02-43A9-91BB-833D2E7716D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{674AB14E-2F02-43A9-91BB-833D2E7716D3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{674AB14E-2F02-43A9-91BB-833D2E7716D3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{674AB14E-2F02-43A9-91BB-833D2E7716D3}.Release|x86.ActiveCfg = Release|Any CPU
+		{56E478A4-D64E-4BAD-81CE-63891C178529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56E478A4-D64E-4BAD-81CE-63891C178529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56E478A4-D64E-4BAD-81CE-63891C178529}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{56E478A4-D64E-4BAD-81CE-63891C178529}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{56E478A4-D64E-4BAD-81CE-63891C178529}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{56E478A4-D64E-4BAD-81CE-63891C178529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56E478A4-D64E-4BAD-81CE-63891C178529}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56E478A4-D64E-4BAD-81CE-63891C178529}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{56E478A4-D64E-4BAD-81CE-63891C178529}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{56E478A4-D64E-4BAD-81CE-63891C178529}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
